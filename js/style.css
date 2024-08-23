@@ -1,0 +1,56 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./513-5139697_vector-background-png-hd-transparent-png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 300px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.form-container div {
+    margin-top: 10px;
+}
+
+.form-container div input {
+    width: 95%;
+    min-height: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(164, 163, 163);
+}
+
+.form-container button {
+    margin-top: 48px;
+    background-color: #004791;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+#errorMsg {
+    color: red;
+}
